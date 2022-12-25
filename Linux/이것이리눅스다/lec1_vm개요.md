@@ -8,7 +8,7 @@
 
 아래의 이미지가 내 컴퓨터에 구축한 가상머신 상 우분투 환경의 모습
 
-![image-20221226053409868](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053409868.png)
+![image-20221226053928521](./assets/image-20221226053928521.png)
 
 
 
@@ -27,7 +27,7 @@
 
 
 
-![image-20221226053426626](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053426626.png)
+![image-20221226053933243](./assets/image-20221226053933243.png)
 
 가상머신 및 게스트 os를 구축했을 때 왼쪽에서 오른쪽 같은 모습이 된다.
 
@@ -49,7 +49,7 @@
 
 4. HOST OS 상태와 격리 시켜, 특정 상태를 저장 및 그대로 이어서 구동 가능 (Suspend)기능
 
-   ![image-20221222191949527](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221222191949527.png)
+   ![image-20221226053935605](./assets/image-20221226053935605.png)
 
 
 
@@ -66,4 +66,4 @@
 
 
 
-![image-20221226053440240](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053440240.png)
+![image-20221226053938126](./assets/image-20221226053938126.png)
