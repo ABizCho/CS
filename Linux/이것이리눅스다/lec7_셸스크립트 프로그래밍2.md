@@ -27,11 +27,11 @@ fi
 exit 0
 ```
 
-![image-20221225203557412](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225203557412.png)
+![image-20221226053620859](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053620859.png)
 
 ​	
 
-![image-20221225203647105](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225203647105.png)
+![image-20221226053623495](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053623495.png)
 
 
 
@@ -59,13 +59,13 @@ do
 done
 ```
 
-![image-20221225204518691](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225204518691.png)
+![image-20221226053625698](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053625698.png)
 
-![image-20221225205308912](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225205308912.png)
+![image-20221226053628081](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053628081.png)
 
 ​					- 에러 왜 뜨는가?: sh에서는 for(())형식을 지원하지 않는다. bash로 실행하면 됨
 
-![image-20221225205402128](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225205402128.png)
+![image-20221226053630175](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053630175.png)
 
 
 
@@ -80,9 +80,9 @@ do
 done
 ```
 
-![image-20221225205628226](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225205628226.png)
+![image-20221226053633731](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053633731.png)
 
-![image-20221225205714889](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225205714889.png)
+![image-20221226053635755](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053635755.png)
 
 
 
@@ -94,9 +94,9 @@ done
 
 아래는 현재 디렉터리에 있는 셸 스크립트 파일(*. sh)의 파일명과 앞 3줄을 출력하는 프로그램이다.
 
-![image-20221225210230136](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225210230136.png)
+![image-20221226053638230](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053638230.png)
 
-![image-20221225210258503](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225210258503.png)
+![image-20221226053639742](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053639742.png)
 
 ​			and so on...
 
@@ -124,9 +124,9 @@ exit 0
 
 ​	- `-le`: less equal 10까지 ->  1 to 10 이하일때까지 반복
 
-![image-20221225211817285](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225211817285.png)
+![image-20221226053642754](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053642754.png)
 
-![image-20221225211835056](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225211835056.png)
+![image-20221226053644532](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053644532.png)
 
 
 
@@ -146,9 +146,9 @@ until [ $i -gt 10 ]
 
 비밀번호를 입력받고, 맞을 때 까지 계속 입력받는 스크립트
 
-![image-20221225212416830](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225212416830.png)
+![image-20221226053646806](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053646806.png)
 
-![image-20221225212436646](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225212436646.png)
+![image-20221226053649732](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053649732.png)
 
 
 
@@ -200,9 +200,9 @@ exit0
 함수이름			#호출
 ```
 
-![image-20221225213424126](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225213424126.png)
+![image-20221226053652810](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053652810.png)
 
-![image-20221225213445021](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225213445021.png)
+![image-20221226053654660](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053654660.png)
 
 
 
@@ -220,9 +220,9 @@ funcName parameter1 parameter2		#함수 호출하며 함수의 인자 순서대�
 
 
 
-![image-20221225213643555](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225213643555.png)
+![image-20221226053658188](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053658188.png)
 
-![image-20221225213700496](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225213700496.png)
+![image-20221226053659743](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053659743.png)
 
 
 
@@ -234,9 +234,9 @@ funcName parameter1 parameter2		#함수 호출하며 함수의 인자 순서대�
 
 `eval $str` -> $str에 저장된 문자열 값을 명령문으로 실행
 
-![image-20221225214456931](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225214456931.png)
+![image-20221226053702417](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053702417.png)
 
-![image-20221225214518013](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225214518013.png)
+![image-20221226053704311](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053704311.png)
 
 
 
@@ -279,7 +279,7 @@ sh exp1.sh	# exp1.sh 실행
 exit 0
 ```
 
-![image-20221225215120933](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225215120933.png)
+![image-20221226053707819](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053707819.png)
 
 
 
@@ -297,9 +297,9 @@ c언어의 printf() 함수와 비슷하게 출력 format을 지정하여 출력
 4. `\t`:  들여쓰기(tab)
 5. `%s` ,`"var2"`: string 출력 지정 -> 뒤의 "var2" 값을 해당 자리에 문자열로 출력 
 
-![image-20221225215825292](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225215825292.png)
+![image-20221226053710138](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053710138.png)
 
-![image-20221225215839848](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225215839848.png)
+![image-20221226053711872](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053711872.png)
 
 
 
@@ -325,9 +325,9 @@ exit 0
 
 ```
 
-![image-20221225220141403](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225220141403.png)
+![image-20221226053714996](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053714996.png)
 
-![image-20221225220147231](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225220147231.png)
+![image-20221226053716844](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053716844.png)
 
 
 
@@ -339,8 +339,8 @@ exit 0
 
 함수 내부에서 shift 명령이 실행된다면, 다음 차례의 파라미터 인자를 땡겨와서(shift) 대입한다.
 
-![image-20221225221444609](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225221444609.png)
+![image-20221226053719341](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053719341.png)
 
 ​	- `$1`에 들어가는 파라미터가 AAA, BBB, CCC, DDD순서로 하나씩 땡겨지는 것
 
-![image-20221225221539989](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225221539989.png)
+![image-20221226053721881](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053721881.png)

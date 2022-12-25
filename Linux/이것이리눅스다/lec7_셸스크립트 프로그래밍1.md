@@ -6,7 +6,7 @@
 
 Linux환경의 기본 셸
 
-<img src="C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221222194406887.png" alt="image-20221222194406887" style="zoom: 50%;" />
+<img src="C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053446338.png" alt="image-20221226053446338" style="zoom:100%;" />
 
 
 
@@ -32,7 +32,7 @@ Linux환경의 기본 셸
 
 `export 환경변수 = 값`으로 환경변수 값을 변경 가능하다.
 
-![image-20221222195039094](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221222195039094.png)
+![image-20221226053458712](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053458712.png)
 
 
 
@@ -120,7 +120,7 @@ $ cat name.sh 	#파일 내용 확인
 $ sh name.sh	#sh파일 실행
 ```
 
-![image-20221225184642440](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225184642440.png)
+![image-20221226053504946](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053504946.png)
 
 - name.sh 셸스크립트 파일을 실행한 결과
 
@@ -135,9 +135,9 @@ $ ./name.sh				# 실행
 
 ```
 
-![image-20221225185015071](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225185015071.png)
+![image-20221226053507778](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053507778.png)
 
-![image-20221225185456372](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225185456372.png)
+![image-20221226053513291](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053513291.png)
 
 
 
@@ -165,9 +165,9 @@ $ ./name.sh				# 실행
 
 4. 변수를 대입할때 '='좌우에는 공백이 없어야 한다.
 
-​	![image-20221225185946990](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225185946990.png)
+​	![image-20221226053519232](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053519232.png)
 
-![image-20221225190034264](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225190034264.png)
+![image-20221226053524406](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053524406.png)
 
 ​	-> 쌍따옴표로 감싸며 공백 사용 가능
 
@@ -175,9 +175,9 @@ $ ./name.sh				# 실행
 
 5. '$'문자가 들어간 글자를 출력하려면 ' '(따옴표)로 묶어주거나 앞에 \ (원) 문자를 붙여주면 된다.
 
-   ![image-20221225191158870](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225191158870.png)
+   ![image-20221226053528414](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053528414.png)
 
-​				![image-20221225191241126](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225191241126.png)
+​				![image-20221226053532598](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053532598.png)
 
    - 쌍따옴표로 감싼 $dollar myvar는 보여지지 않았고, 따옴표로 감싼 '$dollar myvar2'는 출력
    - sh파일의 read myvar는 myvar라는 변수에 사용자로부터 값을 입력받는 명령
@@ -198,9 +198,9 @@ $ ./name.sh				# 실행
 
 
 
-![image-20221225193830462](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225193830462.png)
+![image-20221226053538222](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053538222.png)
 
-​			![image-20221225193854568](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225193854568.png)
+​			![image-20221226053542653](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053542653.png)
 
 
 
@@ -219,7 +219,7 @@ echo "전체 파라미터는 <$*>다"
 exit 0
 ```
 
-![image-20221225194809624](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225194809624.png)
+![image-20221226053546101](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053546101.png)
 
 				- 파일 실행 시 이처럼 파라미터 값을 후미에 입력 가능하다.
 
@@ -238,9 +238,9 @@ fi
 
 
 
-![image-20221225195231511](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225195231511.png)
+![image-20221226053549384](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053549384.png)
 
-​			![image-20221225195253980](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225195253980.png)
+​			![image-20221226053552036](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053552036.png)
 
 
 
@@ -257,9 +257,9 @@ else
 fi
 ```
 
-![image-20221225195547034](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225195547034.png)
+![image-20221226053554491](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053554491.png)
 
-![image-20221225195606224](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225195606224.png)
+![image-20221226053556852](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053556852.png)
 
 
 
@@ -283,7 +283,7 @@ fi
 
 같이 풀어진다.
 
-![image-20221225195722600](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225195722600.png)
+![image-20221226053601449](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053601449.png)
 
 
 
@@ -324,9 +324,9 @@ fi
 exit 0
 ```
 
-![image-20221225200619712](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225200619712.png)
+![image-20221226053604527](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053604527.png)
 
-![image-20221225200646436](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225200646436.png)
+![image-20221226053607516](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053607516.png)
 
 
 
@@ -344,11 +344,11 @@ if문은 참과 거짓의 두 경우만 사용하는 2중분기인 반면
 
 #### case ~ esac 문 (1)
 
-![image-20221225201051051](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225201051051.png)
+![image-20221226053609745](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053609745.png)
 
 			- 위처럼 `$1` 파라미터로 들어온 변수의 값이 각 case의 string과 매칭되는 곳의 명령문을 실행함.
 
-![image-20221225201204351](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225201204351.png)
+![image-20221226053612266](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053612266.png)
 
 
 
@@ -356,7 +356,7 @@ if문은 참과 거짓의 두 경우만 사용하는 2중분기인 반면
 
 #### case ~ esac 문 (2)
 
-![image-20221225201804457](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225201804457.png)
+![image-20221226053614425](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053614425.png)
 
 					1. | 를 OR로 인식하여 여러 입력을 허용토록 설정
 					1. [nN]*는 정규식으로 맨 앞에 소문자 n 혹은 대문자 N일 경우 모두 허용한다는 설정
@@ -366,4 +366,4 @@ if문은 참과 거짓의 두 경우만 사용하는 2중분기인 반면
 
 
 
-![image-20221225201841013](C:\Users\he125\AppData\Roaming\Typora\typora-user-images\image-20221225201841013.png)
+![image-20221226053616565](C:\Users\he125\OneDrive\바탕 화면\CS\Linux\이것이리눅스다\assets\image-20221226053616565.png)
