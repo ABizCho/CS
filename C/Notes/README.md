@@ -58,7 +58,7 @@
 
 ![C_다차원배열_P8](./assets/C_다차원배열_P8.png)
 
-<details>
+</details>
 
 <details>
 <summary>C_3_문자열 입출력과 스트림</summary>
@@ -79,7 +79,7 @@
 
 ![C_스트림_P8](./assets/C_스트림_P8.png)
 
-<details>
+</details>
 
 <details>
 <summary>C_4_구조체</summary>
@@ -104,7 +104,7 @@
 
 ![C_구조체_P10](./assets/C_구조체_P10.png)
 
-<details>
+</details>
 
 <details>
 <summary>C_5_공용체</summary>
@@ -113,7 +113,7 @@
 
 ![C_공용체_P2](./assets/C_공용체_P2.png)
 
-<details>
+</details>
 
 <details>
 <summary>C_6_열거형</summary>
@@ -122,7 +122,7 @@
 
 ![C_열거형_P2](./assets/C_열거형_P2.png)
 
-<details>
+</details>
 
 <details>
 <summary>C_7_파일입출력</summary>
@@ -137,7 +137,7 @@
 
 ![C_파일입출력_P5](./assets/C_파일입출력_P5.png)
 
-<details>
+</details>
 
 <details>
 <summary>C_8_메모리동적할당</summary>
@@ -152,7 +152,7 @@
 
 ![C_메모리관리-동적할당_P5](./assets/C_메모리관리-동적할당_P5.png)
 
-<details>
+</details>
 
 <details>
 <summary>C_9_extern,헤더파일</summary>
@@ -168,5 +168,4 @@
 ![C_파일분할-헤더파일디자인_P5](./assets/C_파일분할-헤더파일디자인_P5.png)
 
 ![C_파일분할-헤더파일디자인_P6](./assets/C_파일분할-헤더파일디자인_P6.png)
-
-<details>
+</details>
